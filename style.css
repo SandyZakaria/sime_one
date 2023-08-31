@@ -1,0 +1,519 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: 'Segoe UI light';
+    padding: 0px 0px;
+    margin:  0px 0px;
+}
+.navbar
+{ 
+    text-align: center;
+    background-color: rgb(41, 40, 40,0.6);
+    color: fff;
+    margin: 0;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999999999999999;
+
+} 
+.conten
+{
+    text-align: center;
+
+
+
+}
+.conten::after
+{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+}
+@keyframes typing    
+{
+    0%{    content: " |";}
+    3%{    content: " D|";}
+    6%{    content: "  De|";}
+    9%{    content: " Des|";}
+    12%{    content: " Desi|";}
+    15%{    content: " Desig|";}
+    18%{    content: " Design|";}
+    21%{    content: " Designe|";}
+    24%{    content: " Designer|";}
+    29%{    content: " Designe|";}
+    32%{    content: " Design|";}
+    38%{    content: "Desig|";}
+    45%{    content: " Desi|";}
+    55%{    content: " Des|";}
+    80%{    content: "De|";}
+    90%{    content: " D|";}
+    100%{    content: " |";}
+}
+.nav
+{
+    list-style-type: none;
+    padding-left : 0px;
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    text-align: center;
+}
+a{
+    color: fff;
+    text-decoration: none;
+}
+.navbar h2
+{
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 5px 25px;
+}
+.header
+{
+    font-size: 25px;
+    height: 100vh;
+   background-image: url(images/images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    z-index: 999999999;
+}
+.layer
+{
+    background-color: rgba(41, 40, 40, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn
+{
+    
+    border-color: #20c997;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 60px;
+    margin: 40px 25px;
+    border-radius: 20px;
+    color: fff;
+}
+.btn-5
+{
+    background-color: #20c997;
+}
+@media screen and (max-width:850px) 
+{
+  
+    .nav
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width:544px) 
+{
+    .navbar{
+        flex-direction: column;
+    }
+    ul
+    {
+        flex-direction: column;
+    }
+    .li{
+        padding: 5px 0px;
+    }
+}
+.total-section2
+{
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+.tot-section2
+{
+    margin: 30px;
+}
+.style2
+{
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+.style1
+{
+    border: solid 1px #20c997;
+    width: 10%;
+}
+
+.col-lg
+{
+    color: #20c997;
+    width: 30%;
+}
+.col-section2
+{
+    width: 70%;
+    font-size: 22px;
+    margin: 0px 20px;
+    
+}
+.user
+{
+    list-style: none;
+    font-size: 25px;
+}
+.use
+{
+    color: black;
+    font-weight: bold;
+}
+.section2
+{
+    display: flex;
+    flex-grow: 1;
+}
+.tot-section4
+{
+    margin: 10px;
+}
+.section3-3
+{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: gray;
+    font-size: 20px;
+}
+.col-section3
+{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    width: 100%;
+  
+} 
+.test5
+{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding: 20px;
+}
+.par
+{
+    font-size: 15px;
+    color: gray;
+}
+.section4
+{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+.style3
+{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.col-section4
+{
+    padding: 10px 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.secshon
+{
+    width: calc(50% - 10px);
+    padding: 10px 0px;
+}
+.barg{
+    width: 50%;}
+.col-section5
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+.section5
+{
+    border: solid 1px   rgb(219, 219, 219);
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+.prag
+{
+    width: 15%;
+    background-color: #20c997;
+    padding: 0px 10px;
+    color: fff;    
+}
+.pragr
+{
+    color: #dc3545;
+    font-weight: bold;
+}
+.bar
+{
+    width: 6px;
+    height: 15px;
+    background-color: #00ffff;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #00ffff;
+    margin: 0px 2px 100px 2px;
+}
+
+.btn-tot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2
+{   
+    background-color: fff;
+    border-color: rgb(94, 94, 94);
+    font-weight: bold;
+    color: gray;
+    border: solid 2px rgb(94, 94, 94);
+}
+.cop
+{
+    color: black;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cot
+{
+    color: black;
+    padding: 15px 15px;
+}
+.you
+{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0;
+    background-color: #1e1e1e;
+}
+.section6-item
+{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.total-section6
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    z-index: 2;
+}
+.layer2
+{
+    background-color: rgba(41, 40, 40, 0.7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    left: 0px; 
+    height: 40%;
+    top: 100%;
+    transition: top 1s;
+    color: fff;
+    z-index: 2;
+}
+.item01 .layer2
+{
+    height: 100%;
+}
+.item02 .layer2
+{
+    height: 45%;
+}
+.item03 .layer2
+{
+    height: 67%;
+}
+.item04 .layer2
+{
+    height: 100%;
+}
+.section6-item:hover .layer2
+{
+    top: 0px;
+}
+.section6-item img
+{
+    width: 100%;
+}
+.section7
+{
+    border: solid 2px none;
+    background-color: rgb(245, 245, 245);
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.col-section7 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section7 img
+{
+    border-radius: 50%;
+    padding: 20px 0px;
+}
+.col-section8
+{
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+.section8-input
+{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.section8
+{
+    padding: 20px;
+    width: 25%;
+    
+}
+
+.list
+{
+    width: 50%;
+}
+.list-type
+{
+    width: 25%;
+}
+
+.type-list
+{
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+}
+.liste
+{
+    width: 100%;
+    padding: 15px 15px;
+    margin: 10px;
+}
+.typ
+{
+    width: 92%;
+}
+.btne
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bo
+{
+    background-color: #20c997;
+    text-align: center;
+}
+.section8 > p
+{
+    width: 50%;
+}
+.type
+{
+    width: 45%;
+    float: left;
+}
+.lab
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-lo
+{
+    width: 100%;
+    height: 20%;
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bt
+{
+    list-style: none;
+}
+.col-56
+{
+    color: #20c997;
+}
+.col-55
+{
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+
+}
